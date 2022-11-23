@@ -1,5 +1,390 @@
-*{
+body {
     padding: 0;
+    margin: 0;
+    background-color: #3e3d3d;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+.content-center {
+    max-width: 60rem;
+    margin: auto;
+    background: white;
+    padding: 0px;
+}
+
+#head {
+    background-color: #C4C4C4;
+}
+
+.image-head {
+    height: 31rem;
+    background-image: url('/img/Vector.png');
+    background-size: 40rem;
+    background-repeat: no-repeat;
+}
+
+.social-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: flex-end;
+    margin: 0 4rem;
+    padding-top: 0.5rem;
+    font-size: 8px;
+}
+
+.logo-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 2rem;
+    margin: 0 4rem;
+    padding-top: 0.5rem;
+}
+
+.logo-wrap>img {
+    width: 300px;
+}
+
+.logo-wrap>i {
+    padding: 0.5rem 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.header-content>div {
+    max-width: 300px;
+    padding: 7rem 10rem;
+    text-align: right;
+}
+
+.header-content h1 {
+    font-size: 24px;
+    padding: 0px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+/* todo Mid Content*/
+.mid {
+    height: 130vh;
+}
+
+.mid-head h1 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.mid-head span {
+    color: #FEC83D;
+}
+
+
+/* todo Card*/
+.card-wrap {
+    display: flex;
+    margin: 1rem;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.card {
+    border-radius: 1rem;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0px 2px 4px #3e3d3d;
+}
+
+.card>.card-img>img {
+    padding: 0;
+    margin: 0;
+    width: 200px;
+}
+
+.card>.card-content {
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.card>.card-content>h1 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.card>.card-content>p {
+    font-size: 11px;
+    text-align: justify;
+    padding-right: 1rem;
+}
+
+.card>.card-content>button {
+    width: 100px;
+    height: 30px;
+    font-size: 11px;
+    padding: 3%;
+    color: #009D9D;
+    border: none;
+}
+
+.card>.card-content>button>i {
+    padding-left: 10px;
+}
+
+.card>.card-content>button:hover {
+    background-color: #009D9D;
+    color: #C4C4C4;
+}
+
+.skill-wrap {
+    height: 70vh;
+}
+
+.skill {
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0;
+    justify-content: center;
+}
+
+.skill>.skill-content {
+    width: 25rem;
+    margin-top: 1rem;
+
+}
+
+.skill>.skill-content>p {
+    width: 20rem;
+    font-size: 13px;
+    font-weight: 100;
+    color: #959494;
+    margin-bottom: 2rem;
+}
+
+.skill>.skill-content>h1 {
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.skill>.skill-content>h6 {
+    color: #959494;
+    font-weight: 200;
+    padding: 0;
+    margin: 0 0 2rem 0;
+}
+
+.skill>.skill-content>hr {
+    height: 0.5rem;
+    border: #009D9D;
+    background-color: #FEC83D;
+    border-radius: 3rem;
+    margin: 2rem 0;
+}
+
+.container {
+    background-color: #ddd;
+    border-radius: 50px;
+    height: 8px;
+    margin: 10px 0;
+}
+
+.skills-bar {
+    text-align: right;
+    color: white;
+    border-radius: 50px;
+    height: 8px;
+}
+
+.html {
+    width: 90%;
+    background-color: #FEC83D;
+}
+
+.css {
+    width: 80%;
+    background-color: #FEC83D;
+}
+
+.js {
+    width: 65%;
+    background-color: #FEC83D;
+}
+
+.php {
+    width: 60%;
+    background-color: #FEC83D;
+}
+
+.progress-label {
+    display: flex;
+    justify-content: space-between;
+    color: #A4660A;
+}
+
+.skill>.skill-img>img {
+    width: 400px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+.contact {
+    height: 46vh;
+}
+
+.contact-wrap {
+    background-color: #EFEFF1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    padding: 0;
+    justify-content: left;
+    margin: 0 4rem;
+    border-radius: 10px;
+}
+
+.contact-img img {
+    width: 20rem;
+    border-radius:15px ;
+}
+
+.contact-form {
+    padding: 3.5rem 0 0 0;
+    margin-top: 0.5rem;
+}
+
+.contact-form h4 {
+    margin-bottom: 1rem;
+    padding: 0;
+    font-weight: 500;
+}
+
+.contact-form h6 {
+    margin: 0;
+    font-weight: 200;
+    color: #959494;
+}
+
+.form-wrap {
+    display: flex;
+    position: relative;
+    margin-top: 1rem;
+}
+
+.form {
+    flex-grow: 2;
+    border-radius: 13px;
+    width: 18rem;
+    height: 2rem;
+    border: none;
+    padding-left: 1rem;
+}
+
+.form:focus {
+    /* removing the input focus blue box. Put this on the form if you like. */
+    outline: none;
+}
+
+.form-btn {
+    position: absolute;
+    right: 3rem;
+    z-index: 1;
+    border: none;
+    height: 2.1rem;
+    cursor: pointer;
+    color: white;
+    font-weight: 300;
+    background-color: #FEC83D;
+}
+
+.footer-wrap{
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1rem;
+
+}
+.logo-part{
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+}
+.logo-part img{
+    width: 12rem;
+}
+.logo-part h6{
     margin:0;
-    width: 420px;
+    font-weight: 200;
+}
+.input-email h4{
+    font-weight: 400;
+    width: 10rem;
+}
+.input-email input{
+    position: relative;
+    border: none;
+    height: 1.8rem;
+    border-bottom: 1px solid #959494;
+}
+.input-email input:focus{
+    outline: none;
+}
+.input-email button{
+    position:absolute;
+    border-radius: 5px;
+    background-color: #FEC83D;
+    border: none;
+    left: 29rem;
+    width: 2rem;
+    height: 2rem;
+    color: #2c2cdf;
+}
+.bot-nav-part ul li{
+    list-style: none;
+    padding: 0.5rem;
+    font-weight: 200;
+}
+ul li span{
+    color: #C84B04;
+}
+.social-bot{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.social-bot>.icon-bot{
+    margin-left: 2.5rem;
+}
+.social-bot>div>button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #FEC83D;
+    color: black;
+    font-size: 16px;
+}
+.social-bot>div>i{
+    font-size: 13px;
+    margin-bottom: 5rem;
+    padding: 5px;
 }
